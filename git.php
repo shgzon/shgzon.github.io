@@ -1,33 +1,5 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Shgzon.GitHub.io by shgzon</title>
-
-    <link rel="stylesheet" href="../stylesheets/styles.css">
-    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Stef van Zon</h1>
-        <p>Documentatie met verschillende programmeertalen.</p>
-        <p class="view"><a href="https://github.com/shgzon">Bekijk mijn GitHub profiel</a></p>
-        <hr>
-        <h3>Navigatie</h3>
-        <p class="view"><a href="index.html">Terug naar beginscherm</a></p>
-        <p class="view"><a href="git.html">Git</a></p>
-        <p class="view"><a href="gerrit.html">Gerrit</a></p>
-        <p class="view"><a href="php.html">PHP</a></p>
-        <p class="view"><a href="drupal.html">Drupal</a></p>
-        <hr>
-      </header>
-      <section>
+  <?php include 'includes/header.html'; ?>
+     <section>
         <h1>
         <a id="setting-up-a-repository" class="anchor" href="#setting-up-a-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>git</h1>
         <hr>
@@ -95,21 +67,4 @@
         <p><code>git commit -a</code></p>
         <hr>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="../javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-45181570");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+<?php include 'includes/header.html'; ?>
